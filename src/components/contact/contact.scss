@@ -1,6 +1,10 @@
 @import '../../global.scss';
 
 .contact{
+    scrollbar-width: none;
+    &::-webkit-scrollbar{
+        display: none;
+    }
     overflow: hidden;
     background-color: black;
     display: flex;
