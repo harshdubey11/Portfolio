@@ -1,20 +1,10 @@
 @import '../../global.scss';
 .projects{
-    overflow: hidden;
-    scrollbar-width: none;
-    &::-webkit-scrollbar{
-        display: none;
-    }
     background-color: #1A1C20;
     color: white;
     
     
     .sectionhead{
-        overflow: hidden;
-    scrollbar-width: none;
-    &::-webkit-scrollbar{
-        display: none;
-    }
         display: flex;
         justify-content: center;
         align-items: center;
@@ -32,11 +22,6 @@
     
     
     .cardContainer{
-        overflow: hidden;
-    scrollbar-width: none;
-    &::-webkit-scrollbar{
-        display: none;
-    }
     
     display: flex;
     flex-wrap: wrap;
