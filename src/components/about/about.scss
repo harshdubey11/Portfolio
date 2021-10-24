@@ -1,0 +1,52 @@
+@import '../../global.scss';
+.about{
+    overflow: hidden;
+    background-color: #1A1C20;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color:white;
+    
+    h1{
+        overflow: hidden;
+        padding-top: 5%;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 3.5em;
+        @include mobile{
+            font-size: 2em;
+        }
+    }
+    .aboutContent{
+        overflow: hidden;
+        p{
+        font-family: 'Open Sans', sans-serif;
+        padding: 5% 10% 5% 10%;
+        font-size: 1.5em;
+        text-align: justify;
+        @include mobile{
+            font-size: 1.2em;
+            text-align:left;
+        }
+        span{
+            color:crimson;
+        }
+    }
+}
+.aboutIcons{
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    font-size: 3em;
+    transition: all 0.3s ease-in-out;
+    &:hover{
+        font-size: 3.1em;
+        color:#1DB9C3;
+    }
+    @include mobile{
+        font-size: 2em;
+       
+    }
+}
+   
+}
