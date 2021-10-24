@@ -10,6 +10,11 @@
     
     
     .sectionhead{
+        overflow: hidden;
+    scrollbar-width: none;
+    &::-webkit-scrollbar{
+        display: none;
+    }
         display: flex;
         justify-content: center;
         align-items: center;
@@ -27,6 +32,11 @@
     
     
     .cardContainer{
+        overflow: hidden;
+    scrollbar-width: none;
+    &::-webkit-scrollbar{
+        display: none;
+    }
     
     display: flex;
     flex-wrap: wrap;
