@@ -8,6 +8,11 @@
     align-items: center;
     flex-direction: column;
     .sectionhead{
+        overflow: hidden;
+        scrollbar-width: none;
+        &::-webkit-scrollbar{
+        display: none;
+        }
         font-family: 'Montserrat', sans-serif;
         font-size: 3.5em;
         color: white;
@@ -86,6 +91,11 @@
 }
 
 .icon-container{
+    overflow: hidden;
+    scrollbar-width: none;
+    &::-webkit-scrollbar{
+        display: none;
+    }
     @include mobile{
         font-size: 2em;  
     }
