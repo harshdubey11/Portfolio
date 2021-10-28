@@ -22,6 +22,10 @@
     
     
     .cardContainer{
+        scrollbar-width: none;
+        &::-webkit-scrollbar{
+            display: none;
+        }
     
     display: flex;
     flex-wrap: wrap;

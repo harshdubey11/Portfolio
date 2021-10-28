@@ -18,12 +18,11 @@ function Intro(){
 
     return(
         <div className="intro" id="intro">
-        <div className="left">
-            <div className="introText">Hi,<br/>I'm Harsh , a</div></div>
-        <div className="right">
-        <span ref={textRef}></span>
+           <div>Hi , I'm Harsh , a  <span ref={textRef}></span></div>
+           <div className="scroll-down"></div>
         </div>
-        </div>
+
+
     );
 }
 

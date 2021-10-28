@@ -1,5 +1,9 @@
 @import '../../global.scss';
 .cards{
+    scrollbar-width: none;
+    &::-webkit-scrollbar{
+        display: none;
+    }
     @include mobile{
         font-size: 0.8em; 
         min-height: 300px; 

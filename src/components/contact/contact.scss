@@ -1,6 +1,10 @@
 @import '../../global.scss';
 
 .contact{
+    scrollbar-width: none;
+    &::-webkit-scrollbar{
+        display: none;
+    }
     overflow: hidden;
     background-color: black;
     display: flex;
@@ -24,6 +28,10 @@
 
 
 .form-container{
+    scrollbar-width: none;
+    &::-webkit-scrollbar{
+        display: none;
+    }
     @include mobile{
         width: 80%;
         
@@ -59,6 +67,7 @@
                 
             }
             height: 220px;
+            min-height: 180px;
             padding: 25px 35px;
             font-size: 1.2em;
             @include mobile{
@@ -91,6 +100,10 @@
 }
 
 .icon-container{
+    scrollbar-width: none;
+    &::-webkit-scrollbar{
+        display: none;
+    }
     overflow: hidden;
     scrollbar-width: none;
     &::-webkit-scrollbar{
@@ -118,6 +131,10 @@
 
 }
 .copyright{
+    scrollbar-width: none;
+    &::-webkit-scrollbar{
+        display: none;
+    }
     @include mobile{
         font-size: 0.8em;  
     }
