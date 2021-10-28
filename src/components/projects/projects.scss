@@ -2,7 +2,10 @@
 .projects{
     background-color: #1A1C20;
     color: white;
-    
+    scrollbar-width: none;
+    &::-webkit-scrollbar{
+        display: none;
+    }
     
     .sectionhead{
         display: flex;
