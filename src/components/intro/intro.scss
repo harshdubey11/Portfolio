@@ -1,5 +1,10 @@
 @import "../../global.scss";
+    
 .intro{
+    scrollbar-width: none;
+    &::-webkit-scrollbar{
+        display: none;
+    }
     background-color: black;
     display: flex;
     flex-direction: column;
