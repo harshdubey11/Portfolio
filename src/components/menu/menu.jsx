@@ -15,6 +15,9 @@ export default function Menu(props){
                 <a href="#skills">Skills</a>
                 </li>
                 <li onClick={()=>props.setState(false)}>
+                <a href="#works">Works</a>
+                </li>
+                <li onClick={()=>props.setState(false)}>
                 <a href="#projects">Projects</a>
                 </li>
                 <li onClick={()=>props.setState(false)}>

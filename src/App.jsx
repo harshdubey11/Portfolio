@@ -4,6 +4,7 @@ import Intro from "./components/intro/intro.jsx";
 import Projects from "./components/projects/projects.jsx";
 import Skills from "./components/skills/skills.jsx";
 import Contact from "./components/contact/contact.jsx";
+import Works from "./components/works/works";
 import Menu from "./components/menu/menu.jsx";
 import About from "./components/about/about.jsx";
 import { useState } from "react";
@@ -23,6 +24,7 @@ function App() {
   <Intro />
   <About/>
   <Skills/>
+  <Works/>
   <Projects/>
   <Contact/>
   </div>
