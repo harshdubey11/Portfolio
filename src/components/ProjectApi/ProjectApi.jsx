@@ -33,7 +33,7 @@ if(loading===false)
      <span className="back"><HashLink to="/portfolio/#projects" className="link"> <BsFillArrowLeftCircleFill/></HashLink></span>
      
 
-       <FadeIn delay={500} className="project-cards" >
+    
         {
             repos.map(item =>{
                 return <Card
@@ -42,7 +42,7 @@ if(loading===false)
                     url={item.html_url}
                 />
             })
-        }</FadeIn>
+        }
       
     </div>
   )}
