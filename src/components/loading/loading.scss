@@ -1,0 +1,11 @@
+.loading{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #1A1C20;
+    overflow: hidden;
+    ::-webkit-scrollbar {
+        display: none;
+      }
+    height: 100vh;
+}

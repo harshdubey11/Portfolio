@@ -1,9 +1,16 @@
-import React from "react";
+import React, { useState } from "react";
 import "./intro.scss";
 import {useRef,useEffect} from "react";
 import {init} from "ityped";
 
+
+
+  
+  
 function Intro(){
+  
+  
+
 
     const textRef  = useRef();
     useEffect(()=>{
@@ -18,8 +25,13 @@ function Intro(){
 
     return(
         <div className="intro" id="intro">
-           <div>Hi , I'm Harsh , a  <span ref={textRef}></span></div>
-           <div className="scroll-down"></div>
+           
+           
+            <div>Hi , I'm Harsh , a  <span ref={textRef}></span></div>
+           
+          
+          
+           
         </div>
 
 

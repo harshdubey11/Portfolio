@@ -10,7 +10,7 @@ const projects = [
 {
     name:"Scrape-News",
     url:"https://newsagg1.herokuapp.com",
-    image:"images/SNimg.PNG",
+    image:"https://photos.app.goo.gl/PGrMh5hCTNjR4nMM9images/SNimg.NPG",
     description:" Designed and developed a web application which aggregates data (News headlines) from multiple websites and compiles them on a single location , built using Web Scraping in Python and configured using Django for the dynamic content and HTML and Bootstrap for the front end.",
     techused:"Tech Used : Python , Django , Web Scraping , Html , Bootstrap"
 },

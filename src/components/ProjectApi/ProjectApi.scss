@@ -1,0 +1,54 @@
+@import '../../global.scss';
+.project-api{
+ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: #1A1C20;
+
+    .back{
+        z-index: 5;
+        @include mobile{
+          left:15px;
+          top:15px;
+        }
+          color:#009dae;
+          position: absolute;
+          left:50px;
+          top:40px;
+          font-size: 50px;
+  
+          &:hover{
+              color:white;
+          }
+          .link{
+              text-decoration: none;
+              color: inherit;
+              @include mobile{
+                  font-size: 30px;
+                  }
+          }
+      }
+
+      .project-cards{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+      }
+}
+::-webkit-scrollbar {
+  width: 10px;
+  height: 50px;
+  
+}
+::-webkit-scrollbar-thumb {
+  background:#009dae;
+  ;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #6d6f71;
+}
